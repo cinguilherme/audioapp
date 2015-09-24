@@ -13,6 +13,7 @@
 		C5D1342B1BB477A400B89035 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D1342A1BB477A400B89035 /* Images.xcassets */; };
 		C5D1342E1BB477A400B89035 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D1342C1BB477A400B89035 /* LaunchScreen.xib */; };
 		C5D1343A1BB477A400B89035 /* Audio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D134391BB477A400B89035 /* Audio_AppTests.swift */; };
+		C5D134441BB47DA900B89035 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5D134431BB47DA900B89035 /* bach.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C5D134331BB477A400B89035 /* Audio AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D134381BB477A400B89035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D134391BB477A400B89035 /* Audio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_AppTests.swift; sourceTree = "<group>"; };
+		C5D134431BB47DA900B89035 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C5D134231BB477A400B89035 /* AppDelegate.swift */,
 				C5D134251BB477A400B89035 /* ViewController.swift */,
+				C5D134431BB47DA900B89035 /* bach.mp3 */,
 				C5D134271BB477A400B89035 /* Main.storyboard */,
 				C5D1342A1BB477A400B89035 /* Images.xcassets */,
 				C5D1342C1BB477A400B89035 /* LaunchScreen.xib */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D134441BB47DA900B89035 /* bach.mp3 in Resources */,
 				C5D134291BB477A400B89035 /* Main.storyboard in Resources */,
 				C5D1342E1BB477A400B89035 /* LaunchScreen.xib in Resources */,
 				C5D1342B1BB477A400B89035 /* Images.xcassets in Resources */,
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Audio App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Audio App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
